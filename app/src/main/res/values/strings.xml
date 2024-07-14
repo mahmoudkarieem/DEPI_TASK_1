@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DEPI_TASK_1</string>
+    <string name="my_name">Mahmoud Kariem</string>
+    <string name="my_gmail">mahmoudkariem83@gmail.com</string>
+    <string name="my_age">my age is 23</string>
+    <string name="my_jop">Software Engineer</string>
+    <string name="face">FaceBook</string>
+</resources>

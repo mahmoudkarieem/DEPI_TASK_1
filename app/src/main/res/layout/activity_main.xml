@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_photo"
+        app:shapeAppearance="@style/circular_image"
+
+
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+
+
+        android:text="@string/my_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gmail"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        android:text="@string/my_gmail"
+        android:textSize="20sp"
+        app:drawableEndCompat="@drawable/baseline_email_24"
+
+
+        />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="25dp"
+
+        android:padding="20dp"
+        android:text="@string/my_age"
+        android:textSize="25sp"
+
+
+        />
+    <TextView
+        android:id="@+id/jop"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="25dp"
+
+        android:padding="20dp"
+        android:text="@string/my_jop"
+        android:textSize="25sp"
+        android:drawableEnd="@drawable/baseline_work_24"
+
+
+
+        />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+
+
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_linkedin"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="0"
+
+            android:background="@drawable/linkedin_"
+            android:hapticFeedbackEnabled="false" />
+
+        <Button
+            android:id="@+id/btn_github"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="0"
+        android:background="@drawable/github_icon"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn_face"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_weight="0"
+
+            android:background="@drawable/social"
+            android:text="@string/face"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
